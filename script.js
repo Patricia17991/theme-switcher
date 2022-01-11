@@ -18,18 +18,17 @@ refresh.addEventListener("click", () => {
   window.location.reload();
 });
 
-
 // verificando se o browser suport o localstorage
- if(typeof(Storage) != "undefined"  ){
+ //if(typeof(Storage) != "undefined"  ){
 
-   localStorage.setItem("theme" , "dark"); //cria a chave
+  // localStorage.setItem("theme" , "dark"); //cria a chave
 
    // localStorage.removeItem(theme); basta colocar a chave para ser removido. O getItem a gente usa p/ obter o valor da chave.
 
-   var themes = localStorage.getItem("theme"); //coloca o nome da chave que quer obter. ou uso: var themes = localStorage.theme;
+  // var themes = localStorage.getItem("theme"); //coloca o nome da chave que quer obter. ou uso: var themes = localStorage.theme;
 
    //document.write(themes); imprime o valor da variavel.
- } else {
+ //} else {
 
-   document.write("Sem Suporte ao Web Storage! ");
- }
+   //document.write("Sem Suporte ao Web Storage! ");
+ //}
