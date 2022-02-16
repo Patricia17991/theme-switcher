@@ -7,4 +7,4 @@ Página simples com mudança de thema usando apenas HTML5, CSS e JS
 ![Clone-netflix](https://github.com/Patricia17991/theme-switcher/blob/main/image-dark.png?raw=true) 
 
 
-![Clone-netflix]() 
+![Clone-netflix](https://github.com/Patricia17991/theme-switcher/blob/main/image-light.png?raw=true) 
