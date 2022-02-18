@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
+
   /* Definição das cores */
   body {
     /* cores de texto */
@@ -18,7 +20,9 @@
     font-family: "Inter", sans-serif;
     line-height: 1.7;
     background-color: var(--bg-grey-light);
+      
   }
+
   .dark {
     --text-white: #e6e6e6;
     --text-dark: #ffffff;
@@ -26,38 +30,50 @@
     --bg-white: #22395d;
     --bg-blue-dark: #142136;
     --bg-indigo: #7577e1;
+      
   }
+
   .container {
     max-width: 600px;
     margin: 40px auto;
     display: flex;
     padding: 20px;
     flex-direction: column;
+      
   }
+
   .text-wrapper {
     width: 100%;
     padding: 20px;
     background-color: var(--bg-white);
     margin-bottom: 40px;
     border-radius: 10px;
+      
   }
+
   .paragraph {
     font-size: 16px;
     color: var(--text-dark);
+      
   }
+
   .heading {
     font-size: 40px;
     letter-spacing: 1px;
     font-weight: 900;
     margin-bottom: 40px;
     color: var(--text-dark);
+      
   }
+
   .buttons {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-bottom: 40px;
+      
   }
+
   .button {
     width: 200px;
     padding: 5px;
@@ -71,4 +87,5 @@
     font-size: 16px;
     font-weight: 400;
     text-transform: capitalize;
+      
   }
